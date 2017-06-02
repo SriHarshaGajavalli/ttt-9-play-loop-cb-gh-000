@@ -36,3 +36,10 @@ def turn(board)
 end
 
 # Define your play method below
+def play(board)
+  petla = 0
+  until petla == 9
+    turn(board)
+    petla += 1
+  end
+end
